@@ -28,7 +28,7 @@ public class Main {
 		nums = new ArrayList<>(new HashSet<>(nums));
 		Collections.sort(nums);
 		for (Integer num : nums) {
-			if (num % 2 != 0) {
+			if (num % 2 == 0) {
 				System.out.println(num);
 			}
 		}
